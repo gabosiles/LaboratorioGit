@@ -1,7 +1,9 @@
+#! /usr/bin/python3
+
 import funcionesTarea
 
 gato1 = funcionesTarea.gato()
-gato1.nombre = "Akame"
+gato1.nombre = "Jester"
 gato1.color = "negro"
 gato1.edad = 4
 gato1.aniadirlista()
@@ -15,7 +17,7 @@ gato2.aniadirlista()
 gato3 = funcionesTarea.gato()
 gato3.nombre = "Flipper"
 gato3.color = "blanco"
-gato3.edad =1
+gato3.edad = 1
 gato3.aniadirlista()
 
 funcionesTarea.printlista()
